@@ -10,3 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.SimpleCounter{
+    text-align: center;
+    background: black;
+
+}
+
+.SimpleCounter div {
+    display: inline-block;
+    font-size: 250px;
+    line-height: 250px;
+    background: #1d1c1c;
+    color: white;
+    padding: 10px;   
+    margin: 3px;   
+    border-radius: 30px;
+}
