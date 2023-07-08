@@ -5,7 +5,14 @@ import SimpleCounter from "./SimpleCounter"
 const Home = () => {
 	return (
 		<div className="text-center">
-			<SimpleCounter/>
+			<SimpleCounter
+			 digitOne={one}
+			 digitTwo={two}
+			 digitThree={three}
+			 digitFour={four}
+			 digitFive={five}
+			 digitSix={six}
+		   />
 		</div>
 	);
 };
